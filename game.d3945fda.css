@@ -1,0 +1,18 @@
+html,
+body {
+    background-color: bisque;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+#gameContainer {
+
+}
+
+
+/*# sourceMappingURL=/game.d3945fda.css.map */

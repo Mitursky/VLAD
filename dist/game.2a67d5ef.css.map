@@ -1,1 +1,0 @@
-{"version":3,"sources":["game.css"],"names":[],"mappings":"AAAA,UAEI,uBAAwB,CACxB,QAAS,CACT,WAAY,CACZ,eACJ,CAEA,OACI,aACJ","file":"game.2a67d5ef.css","sourceRoot":"../src","sourcesContent":["html,\nbody {\n    background-color: bisque;\n    margin: 0;\n    height: 100%;\n    overflow: hidden;\n}\n\ncanvas {\n    display: block;\n}\n\n#gameContainer {\n\n}\n"]}

@@ -1,1 +1,50 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><link rel="icon" href="/favicon.fb5fdf3b.ico" sizes="16x16"><link rel="manifest" crossorigin="use-credentials" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/icon-150.2ead76c5.png"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#000000"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" type="text/css" href="/game.2a67d5ef.css"><title>flappy-bird</title></head><body> <div id="gameContainer"></div> <div id="test" style="position:absolute;width:100%;height:100%;background:url(/lol.0b7f1d52.gif);background-size:contain;opacity:0"></div> <script src="/src.cdfc4b8c.js"></script> <script>"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/service-worker.js").then(function(e){console.log("ServiceWorker registration successful with scope: ".concat(e.scope))},function(e){console.log("ServiceWorker registration failed: ".concat(e))})});</script> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/VLAD/favicon.26242483.ico" sizes="16x16" />
+        <link rel="manifest" crossorigin="use-credentials" href="/VLAD/manifest.webmanifest" />
+        <link rel="apple-touch-icon" href="/VLAD/icon-150.573517cb.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="/VLAD/game.d3945fda.css" />
+        <title>flappy-bird</title>
+        <script src="/VLAD/game.d3945fda.js"></script>
+    </head>
+
+    <body>
+        <div id="gameContainer"></div>
+        <div
+            id="test"
+            style='position:absolute; width:100%; height:100%; background: url("/lol.e9b82382.gif"); background-size: contain; opacity: 0'
+        ></div>
+
+        <script src="/VLAD/src.77de5100.js"></script>
+
+        <script>
+            // if (window.navigator && navigator.serviceWorker) {
+            //     navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            //         for (let registration of registrations) {
+            //             registration.unregister();
+            //         }
+            //     });
+            // }
+            if ("serviceWorker" in navigator) {
+                window.addEventListener("load", function() {
+                    navigator.serviceWorker.register("/service-worker.js").then(
+                        function(registration) {
+                            console.log(
+                                "ServiceWorker registration successful with scope: ".concat(registration.scope)
+                            );
+                        },
+                        function(error) {
+                            console.log("ServiceWorker registration failed: ".concat(error));
+                        }
+                    );
+                });
+            }
+        </script>
+    </body>
+</html>
